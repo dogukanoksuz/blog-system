@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251c3ba6-8f3f-45cf-8928-00d60cb741b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/divergent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/divergent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Content/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Content/SearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/content/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/search.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/content/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/content/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/tag.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +207,7 @@
       <workItem from="1564404479201" duration="25000" />
       <workItem from="1564404516904" duration="6245000" />
       <workItem from="1564466819346" duration="22433000" />
-      <workItem from="1564492324802" duration="2352000" />
+      <workItem from="1564492324802" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1563994956962</created>

@@ -1,8 +1,9 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-    {{ $tag->name }} etiket arşivi - {!! config('setting.Title') !!}
-@endsection
+{{ $tag->name }} etiket arşivi - {!! config('setting.Title') !!}@endsection
+@section('pageDesc')
+{{ $tag->name }} isimli etiketi içeren yazılar arşivi. Doğukan Öksüz, Freelance Web Developer.@endsection
 @section('content')
     <main id="Main">
         <div class="container">
