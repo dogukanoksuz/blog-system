@@ -1,8 +1,9 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-    {{ $page->title }} - {!! config('setting.Title') !!}
-@endsection
+{{ $page->title }} - {!! config('setting.Title') !!}@endsection
+@section('pageDesc')
+{!! substr(strip_tags($page->content), 0, 145) !!}@endsection
 @section('content')
     <main id="Main">
         <div class="container">

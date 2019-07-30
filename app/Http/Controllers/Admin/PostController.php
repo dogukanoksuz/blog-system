@@ -60,7 +60,8 @@ class PostController extends Controller
                 [
                     'title' => 'required',
                     'content' => 'required',
-                    'categories' => 'required'
+                    'categories' => 'required',
+                    'seo_description' => 'required|max:145'
                 ]
             );
         } catch (ValidationException $e) {
@@ -152,7 +153,8 @@ class PostController extends Controller
                 [
                     'title' => 'required',
                     'content' => 'required',
-                    'categories' => 'required'
+                    'categories' => 'required',
+                    'seo_description' => 'required|max:145'
                 ]
             );
         } catch (ValidationException $e) {
@@ -207,7 +209,7 @@ class PostController extends Controller
             Post::destroy($id);
             DB::table('post_category')->where('post_id', $id)->delete();
             DB::table('post_user')->where('post_id', $id)->delete();
-
+            DB::table('taggables')->where(['taggable_id' => $id, 'taggable_type' => 'App\Admin\Post']);
             $error = 'Başarıyla silindi!';
         } catch (QueryException $e) {
             $error = 'Hata!' . $e;

@@ -34,7 +34,7 @@ Route::group(['namespace' => 'Content'], function () {
     Route::get('/sitemap.xml', 'SitemapController@sitemap');
 
     // search
-    Route::post('/search', 'SearchController@index')->name('search');
+    Route::get('/search', 'SearchController@index')->name('search');
 });
 
 Auth::routes(

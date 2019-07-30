@@ -13,10 +13,19 @@
         <h4 class="boxTitle">
             Arama
         </h4>
-        {{ Form::open(['url' => route('search'), 'method' => 'post']) }}
-        {{ Form::bsText('searchquery', ' ', '', ['placeholder' => 'Arayacağınız kelime...'])}}
-        {{ Form::bsSubmit('Arama') }}
-        {{ Form::close() }}
+        <form method="get" action="{{ route('search') }}">
+            @csrf
+            <div class="row">
+                <div class="col-8">
+                    <input class="form-control" autocomplete="off" placeholder="Aradığınız kelime..." name="searchQuery" type="text" value="" id="searchQuery">
+                </div>
+                <div class="col-4">
+                    <button type="submit" class="btn btn-primary">
+                        Arama
+                    </button>
+                </div>
+            </div>
+        </form>
     </div>
     <div class="box">
         <h4 class="boxTitle">

@@ -8,6 +8,7 @@ use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Tags\HasTags;
 
+
 class Post extends Model
 {
     use Sluggable;

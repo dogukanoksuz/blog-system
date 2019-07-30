@@ -1,8 +1,7 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-    {!! config('setting.Title') !!} - {!! config('setting.Description') !!}
-@endsection
+{!! config('setting.Title') !!} - {!! config('setting.Description') !!}@endsection
 @section('content')
     <main id="Main">
         <div class="container">

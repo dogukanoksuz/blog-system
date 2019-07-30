@@ -1,7 +1,10 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-    {{ $category->title }} kategori arşivi - {!! config('setting.Title') !!}
+{{ $category->title }} kategori arşivi - {!! config('setting.Title') !!}
+@endsection
+@section('pageDesc')
+{{ $category->title }} kategorisinde yazılmış makaleler. Doğukan Öksüz, Freelance Web Developer.
 @endsection
 @section('content')
     <main id="Main">
