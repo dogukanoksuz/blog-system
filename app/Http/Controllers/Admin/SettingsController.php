@@ -3,9 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Admin\Settings;
-use Illuminate\Contracts\Session\Session;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 class SettingsController extends Controller
 {
@@ -31,7 +30,7 @@ class SettingsController extends Controller
 
         $social = [
             'facebook' => $arr['facebook'],
-            'twitter'  => $arr['twitter'],
+            'twitter' => $arr['twitter'],
             'instagram' => $arr['instagram'],
             'steam' => $arr['steam'],
             'linkedin' => $arr['linkedin'],

@@ -11,7 +11,10 @@
         </div>
     @endif
     <div class="card">
-        <div class="card-header">{{ __('Yazılar') }} <div class="float-right"><a href="{{ route('posts.create') }}"><i class="fas fa-plus"></i> Yeni Yazı Ekle</a></div></div>
+        <div class="card-header">{{ __('Yazılar') }}
+            <div class="float-right"><a href="{{ route('posts.create') }}"><i class="fas fa-plus"></i> Yeni Yazı
+                    Ekle</a></div>
+        </div>
 
         <div class="card-body">
             <table class="table table-dark table-borderless table-hover">
@@ -40,14 +43,17 @@
                             @endforeach
                         </td>
                         <td>
-                            <button class="btn btn-link" style="padding: 0; float: left; margin-right: 5px;"><a href="{{ route('posts.edit', ['post' => $post->id]) }}"><i class="fas fa-edit"
-                                                                                                                                                                           aria-hidden="true"></i>&nbsp;</a>
+                            <button class="btn btn-link" style="padding: 0; float: left; margin-right: 5px;"><a
+                                    href="{{ route('posts.edit', ['post' => $post->id]) }}"><i class="fas fa-edit"
+                                                                                               aria-hidden="true"></i>&nbsp;</a>
                             </button>
-                            <form action="{{ route('posts.destroy', ['post' => $post->id]) }}" method="POST" onsubmit="confirm('Emin misiniz?')">
+                            <form action="{{ route('posts.destroy', ['post' => $post->id]) }}" method="POST"
+                                  onsubmit="confirm('Emin misiniz?')">
                                 @method('DELETE')
                                 @csrf
                                 <button class="btn btn-link" style="padding: 0; float: left;"><i class="fas fa-times"
-                                                                                                 aria-hidden="true"></i></button>
+                                                                                                 aria-hidden="true"></i>
+                                </button>
                             </form>
                         </td>
                     </tr>

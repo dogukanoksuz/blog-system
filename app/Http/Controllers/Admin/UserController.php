@@ -64,7 +64,7 @@ class UserController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -75,7 +75,7 @@ class UserController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -92,7 +92,7 @@ class UserController extends Controller
         $this->validate($request, [
             'role' => 'required',
             'name' => 'required',
-            'email' => 'required|email|unique:users,email,'.$id,
+            'email' => 'required|email|unique:users,email,' . $id,
         ]);
 
         $req = $request->all();
@@ -102,8 +102,7 @@ class UserController extends Controller
             'email' => $req['email'],
         ]);
 
-        if(!empty($request->password))
-        {
+        if (!empty($request->password)) {
             User::find($id)->update([
                 'password' => Hash::make($request->password)
             ]);
@@ -127,7 +126,7 @@ class UserController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
@@ -138,8 +137,7 @@ class UserController extends Controller
             return view('admin.users', compact(['users', 'error']));
         }
 
-        try
-        {
+        try {
             User::destroy($id);
             DB::table('role_user')->where('user_id', $id)->delete();
             $error = 'Başarıyla silindi!';

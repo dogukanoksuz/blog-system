@@ -1,7 +1,7 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-{{ $category->title }} kategori arşivi - {!! config('setting.Title') !!}
+    {{ $category->title }} kategori arşivi - {!! config('setting.Title') !!}
 @endsection
 @section('content')
     <main id="Main">

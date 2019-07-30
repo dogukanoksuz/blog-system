@@ -1,7 +1,7 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-{{ $post->title }} - {!! config('setting.Title') !!}
+    {{ $post->title }} - {!! config('setting.Title') !!}
 @endsection
 @section('pageDesc')@if($post->seo_description !== "") {{ $post->seo_description }} @else{{ config('setting.Title') }}@endif @endsection
 @section('pageKeyword')@foreach ($post->tags()->get() as $tag){{$tag->name . ','}}@endforeach @endsection

@@ -3,7 +3,8 @@
     <br>
     @foreach ($elements as $element)
         <label class="checkbox">
-            <input type="checkbox" name="{{ $name }}[]" value="{{ $element['value'] }}" {{ $element['is_checked'] ? 'checked' : null }}> {{ $element['text'] }}
+            <input type="checkbox" name="{{ $name }}[]"
+                   value="{{ $element['value'] }}" {{ $element['is_checked'] ? 'checked' : null }}> {{ $element['text'] }}
         </label>
         <br>
     @endforeach

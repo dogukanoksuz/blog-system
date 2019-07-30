@@ -25,11 +25,6 @@ class Post extends Model
         return $this->belongsToMany(User::class, 'post_user');
     }
 
-    public function category()
-    {
-        return $this->belongsToMany(Category::class, 'post_category');
-    }
-
     public function isElementOfThisCategory($id)
     {
         foreach ($this->category()->get() as $categoryTable) {
@@ -38,6 +33,11 @@ class Post extends Model
             }
         }
         return false;
+    }
+
+    public function category()
+    {
+        return $this->belongsToMany(Category::class, 'post_category');
     }
 
     public function image()

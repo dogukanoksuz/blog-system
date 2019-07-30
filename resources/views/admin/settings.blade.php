@@ -26,13 +26,13 @@
         <div class="card-header">{{ __('Sosyal Medya Ayarları') }}</div>
 
         <div class="card-body">
-                    @php
-                        $new = json_decode($setting->value, JSON_PRETTY_PRINT)
-                    @endphp
-                    @foreach ($new as $key => $val)
-                        {{ Form::bsText($key, trans('custom.' . $key), $val, ['autocomplete' => 'off']) }}
-                    @endforeach
-                @endif
+            @php
+                $new = json_decode($setting->value, JSON_PRETTY_PRINT)
+            @endphp
+            @foreach ($new as $key => $val)
+                {{ Form::bsText($key, trans('custom.' . $key), $val, ['autocomplete' => 'off']) }}
+            @endforeach
+            @endif
 
             @endforeach
 

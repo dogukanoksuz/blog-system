@@ -44,11 +44,13 @@
                             </button>
                         </div>
                         <ul class="list-group collapse" id="fileSettings">
-                            <a data-featherlight="iframe" data-featherlight-iframe-width="1700" data-featherlight-iframe-height="800"
+                            <a data-featherlight="iframe" data-featherlight-iframe-width="1700"
+                               data-featherlight-iframe-height="800"
                                href="{{ route('unisharp.lfm.show') }}?field_name=&type=Images">
                                 <li class="list-group-item"><i class="fas fa-image"></i> Resimler</li>
                             </a>
-                            <a data-featherlight="iframe" data-featherlight-iframe-width="1700" data-featherlight-iframe-height="800"
+                            <a data-featherlight="iframe" data-featherlight-iframe-width="1700"
+                               data-featherlight-iframe-height="800"
                                href="{{ route('unisharp.lfm.show') }}?field_name=&type=Files">
                                 <li class="list-group-item"><i class="fas fa-folder-open"></i> Dosyalar</li>
                             </a>

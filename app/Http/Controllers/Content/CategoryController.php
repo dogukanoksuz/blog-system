@@ -3,14 +3,13 @@
 namespace App\Http\Controllers\Content;
 
 use App\Admin\Category;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
 class CategoryController extends Controller
 {
     public function index($slug)
     {
-        if($category = Category::where('slug', $slug)->first()) {
+        if ($category = Category::where('slug', $slug)->first()) {
             $posts = $category->post()->orderBy('created_at', 'desc')->paginate(5);
             return view('content.category', compact(['posts', 'category']));
         } else {

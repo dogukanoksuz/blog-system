@@ -1,5 +1,5 @@
 let editor_config = {
-    path_absolute : "http://divergent.msi/",
+    path_absolute: "http://divergent.msi/",
     selector: "textarea.tinymce",
     plugins: [
         "advlist autolink lists link image charmap print preview hr anchor pagebreak",
@@ -9,9 +9,9 @@ let editor_config = {
     ],
     toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media",
     relative_urls: false,
-    file_browser_callback : function(field_name, url, type, win) {
+    file_browser_callback: function (field_name, url, type, win) {
         var x = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
-        var y = window.innerHeight|| document.documentElement.clientHeight|| document.getElementsByTagName('body')[0].clientHeight;
+        var y = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
 
         var cmsURL = editor_config.path_absolute + 'admin/filemanager?field_name=' + field_name;
         if (type === 'image') {
@@ -21,12 +21,12 @@ let editor_config = {
         }
 
         tinyMCE.activeEditor.windowManager.open({
-            file : cmsURL,
-            title : 'Dogukan.dev Dosya Yöneticisi',
-            width : x * 0.8,
-            height : y * 0.8,
-            resizable : "yes",
-            close_previous : "no"
+            file: cmsURL,
+            title: 'Dogukan.dev Dosya Yöneticisi',
+            width: x * 0.8,
+            height: y * 0.8,
+            resizable: "yes",
+            close_previous: "no"
         });
 
         var cmsURL = editor_config.path_absolute;

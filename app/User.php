@@ -48,12 +48,7 @@ class User extends Authenticatable
         return $this->belongsToMany(Post::class, 'post_user');
     }
 
-    public function roles()
-    {
-        return $this->belongsToMany('App\User\Role', 'role_user');
-    }
-
-    public function doesHavePermission($role) :bool
+    public function doesHavePermission($role): bool
     {
         foreach ($this->roles()->get() as $roleTable) {
             if ($roleTable->name === $role) {
@@ -61,6 +56,11 @@ class User extends Authenticatable
             }
         }
         return false;
+    }
+
+    public function roles()
+    {
+        return $this->belongsToMany('App\User\Role', 'role_user');
     }
 
 }

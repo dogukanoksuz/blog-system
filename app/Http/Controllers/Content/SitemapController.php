@@ -11,7 +11,8 @@ use Spatie\Tags\Tag;
 
 class SitemapController extends Controller
 {
-    public function sitemap(){
+    public function sitemap()
+    {
         $posts = Post::orderBy('updated_at', 'desc')->get();
         $pages = Page::get();
         $categories = Category::get();

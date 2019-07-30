@@ -5,10 +5,10 @@ return [
     'Description' => 'Site sloganı',
     'Keywords' => 'Anahtar kelimeler',
     'Social Links' => 'Sosyal Medya',
-    'facebook'  => 'Facebook',
-    'twitter'   => 'Twitter',
+    'facebook' => 'Facebook',
+    'twitter' => 'Twitter',
     'instagram' => 'Instagram',
     'steam' => 'Steam',
     'linkedin' => 'Linkedin',
-    'mail'  => 'E-posta'
+    'mail' => 'E-posta'
 ];

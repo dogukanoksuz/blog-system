@@ -49,7 +49,7 @@ return [
     'files_folder_name' => 'documents',
 
     'shared_folder_name' => 'shared',
-    'thumb_folder_name'  => 'thumbs',
+    'thumb_folder_name' => 'thumbs',
 
     /*
     |--------------------------------------------------------------------------
@@ -143,32 +143,32 @@ return [
     */
 
     'file_type_array' => [
-        'pdf'  => 'Adobe Acrobat',
-        'doc'  => 'Microsoft Word',
+        'pdf' => 'Adobe Acrobat',
+        'doc' => 'Microsoft Word',
         'docx' => 'Microsoft Word',
-        'xls'  => 'Microsoft Excel',
+        'xls' => 'Microsoft Excel',
         'xlsx' => 'Microsoft Excel',
-        'zip'  => 'Archive',
-        'gif'  => 'GIF Image',
-        'jpg'  => 'JPEG Image',
+        'zip' => 'Archive',
+        'gif' => 'GIF Image',
+        'jpg' => 'JPEG Image',
         'jpeg' => 'JPEG Image',
-        'png'  => 'PNG Image',
-        'ppt'  => 'Microsoft PowerPoint',
+        'png' => 'PNG Image',
+        'ppt' => 'Microsoft PowerPoint',
         'pptx' => 'Microsoft PowerPoint',
     ],
 
     'file_icon_array' => [
-        'pdf'  => 'fa-file-pdf-o',
-        'doc'  => 'fa-file-word-o',
+        'pdf' => 'fa-file-pdf-o',
+        'doc' => 'fa-file-word-o',
         'docx' => 'fa-file-word-o',
-        'xls'  => 'fa-file-excel-o',
+        'xls' => 'fa-file-excel-o',
         'xlsx' => 'fa-file-excel-o',
-        'zip'  => 'fa-file-archive-o',
-        'gif'  => 'fa-file-image-o',
-        'jpg'  => 'fa-file-image-o',
+        'zip' => 'fa-file-archive-o',
+        'gif' => 'fa-file-image-o',
+        'jpg' => 'fa-file-image-o',
         'jpeg' => 'fa-file-image-o',
-        'png'  => 'fa-file-image-o',
-        'ppt'  => 'fa-file-powerpoint-o',
+        'png' => 'fa-file-image-o',
+        'ppt' => 'fa-file-powerpoint-o',
         'pptx' => 'fa-file-powerpoint-o',
     ],
 
@@ -184,7 +184,7 @@ return [
     | directives are not supported.
     */
     'php_ini_overrides' => [
-        'memory_limit'        => '256M',
+        'memory_limit' => '256M',
     ],
 
 ];

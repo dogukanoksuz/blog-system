@@ -1,6 +1,5 @@
 <?php
 
-use App\Admin\Settings;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -25,11 +24,11 @@ class SettingsSeeder extends Seeder
         DB::table('settings')->insert(
             ['name' => 'Social Links', 'value' => json_encode([
                 'facebook' => 'https://fb.me',
-                'twitter'  => 'https://t.co',
+                'twitter' => 'https://t.co',
                 'instagram' => 'https://instagr.am',
-                'steam'     => 'https://steamcommunity.com',
-                'linkedin'  => 'www.linkedin.com',
-                'mail'      => 'me@dogukan.dev'
+                'steam' => 'https://steamcommunity.com',
+                'linkedin' => 'www.linkedin.com',
+                'mail' => 'me@dogukan.dev'
             ])]
         );
     }

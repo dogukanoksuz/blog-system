@@ -22,7 +22,7 @@
         <url>
             <loc>{{ route('category', $category->slug) }}</loc>
             @if ($category->post()->first() != null)
-            <lastmod>{{ $category->post()->orderBy('created_at', 'desc')->first()->created_at->toAtomString() }}</lastmod>
+                <lastmod>{{ $category->post()->orderBy('created_at', 'desc')->first()->created_at->toAtomString() }}</lastmod>
             @endif
             <changefreq>Daily</changefreq>
             <priority>0.6</priority>

@@ -1,7 +1,7 @@
 @extends('layouts.dogukan')
 
 @section('pageTitle')
-{{ $page->title }} - {!! config('setting.Title') !!}
+    {{ $page->title }} - {!! config('setting.Title') !!}
 @endsection
 @section('content')
     <main id="Main">

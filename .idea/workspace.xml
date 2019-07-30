@@ -2,54 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251c3ba6-8f3f-45cf-8928-00d60cb741b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/content/search.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/divergent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/divergent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helper/TemplateHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helper/TemplateHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Content/SitemapController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Content/SitemapController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/disqus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/image.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/lfm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sluggable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_25_220745_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_07_25_220745_create_posts_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1/5d3e99cce49b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1/5d3ea5bd59c7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1/5d3ebfe29a885.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/thumbs/test-1564386754.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/thumbs/test-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/thumbs/test12312123123-1564396225.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts_create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts_create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts_edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/category.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/sitemap.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/sitemap.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/content/tag.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/content/tag.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/dogukan.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dogukan.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,9 +123,10 @@
       <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-disqus" />
       <path value="$PROJECT_DIR$/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-searchable" />
+      <path value="$PROJECT_DIR$/vendor/spatie/eloquent-sortable" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-tags" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-translatable" />
-      <path value="$PROJECT_DIR$/vendor/spatie/eloquent-sortable" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -250,7 +208,7 @@
       <workItem from="1564382077771" duration="16546000" />
       <workItem from="1564404479201" duration="25000" />
       <workItem from="1564404516904" duration="6245000" />
-      <workItem from="1564466819346" duration="21192000" />
+      <workItem from="1564466819346" duration="22051000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <created>1563994956962</created>

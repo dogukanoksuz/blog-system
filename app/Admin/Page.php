@@ -10,13 +10,12 @@ class Page extends Model
 {
     use Sluggable;
 
+    public $timestamps = false;
     protected $fillable = [
         'title',
         'slug',
         'content',
     ];
-
-    public $timestamps = false;
 
     public function user()
     {

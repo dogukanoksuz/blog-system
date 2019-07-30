@@ -15,11 +15,6 @@ class Category extends Model
         'slug',
     ];
 
-    public function post()
-    {
-        return $this->belongsToMany(Post::class, 'post_category');
-    }
-
     public function isElementOfCategory($id)
     {
         foreach ($this->post()->get() as $postTable) {
@@ -28,6 +23,11 @@ class Category extends Model
             }
         }
         return false;
+    }
+
+    public function post()
+    {
+        return $this->belongsToMany(Post::class, 'post_category');
     }
 
     public function sluggable()
