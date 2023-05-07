@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: 
+Disallow: /admin/
+Disallow: /login/
+Disallow: /contact/contact.php
+
+Sitemap: https://dogukan.dev/sitemap.xml
+
